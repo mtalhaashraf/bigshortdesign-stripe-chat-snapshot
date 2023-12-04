@@ -1,0 +1,48 @@
+{
+	"name": "bigshortdesign",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --check .",
+		"format": "prettier --write .",
+		"emulator": "firebase emulators:start",
+		"deploy-functions":"firebase deploy --only functions:webhook"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"autoprefixer": "^10.4.8",
+		"postcss": "^8.4.16",
+		"prettier": "^2.6.2",
+		"prettier-plugin-svelte": "^2.7.0",
+		"svelte": "^3.44.0",
+		"svelte-preprocess": "^4.10.7",
+		"tailwindcss": "^3.1.8",
+		"vite": "^3.0.4"
+	},
+	"type": "module",
+	"dependencies": {
+		"@joeattardi/emoji-button": "^4.6.4",
+		"@sveltejs/adapter-static": "^1.0.0-next.39",
+		"axios": "^0.27.2",
+		"date-fns": "^2.29.2",
+		"filedrop-svelte": "^0.1.2",
+		"firebase": "^9.9.3",
+		"firebase-admin": "^11.0.1",
+		"highcharts": "^10.2.0",
+		"moment": "^2.29.4",
+		"moment-timezone": "^0.5.35",
+		"nanoid": "^4.0.0",
+		"ramda": "^0.28.0",
+		"stream-chat": "^7.0.0",
+		"stripe": "^10.6.0",
+		"svelte-awesome": "^3.0.0",
+		"svelte-feather-icons": "^4.0.0",
+		"svelte-loading-spinners": "^0.1.7",
+		"svelte-modals": "^1.2.0",
+		"svelte-simple-modal": "^1.4.1"
+	}
+}
